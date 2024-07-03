@@ -1,0 +1,11 @@
+@CashDrawerApi_HostAddress = http://localhost:5095
+
+GET {{CashDrawerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{CashDrawerApi_HostAddress}}/api/trigger/
+Accept: application/json
+
+###
